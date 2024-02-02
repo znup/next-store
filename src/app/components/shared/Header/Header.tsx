@@ -3,7 +3,6 @@ import Link from 'next/link';
 import styles from './Header.module.sass';
 
 export const Header = () => {
-  console.log('en el header');
   return (
     <header>
       <nav>
@@ -14,6 +13,10 @@ export const Header = () => {
 
           <li>
             <Link href="/store">Store</Link>
+          </li>
+
+          <li>
+            <Link href="/test">Test</Link>
           </li>
         </ul>
       </nav>
