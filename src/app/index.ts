@@ -9,3 +9,4 @@ export * from './components/product/ProductView/ProductViewItemsOrder';
 export * from './components/shared/Footer/Footer';
 export * from './components/shared/Header/Header';
 export * from './components/shared/Loader/Loader';
+export * from './components/shared/SanitizeHTML/SanitizeHTML';
