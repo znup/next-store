@@ -10,3 +10,4 @@ export * from './components/shared/Footer/Footer';
 export * from './components/shared/Header/Header';
 export * from './components/shared/Loader/Loader';
 export * from './components/shared/SanitizeHTML/SanitizeHTML';
+export * from './components/signup/NewAccountForm/NewAccountForm';
