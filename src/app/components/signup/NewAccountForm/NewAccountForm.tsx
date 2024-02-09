@@ -6,10 +6,11 @@ import styles from './NewAccountForm.module.sass';
 export const NewAccountForm = () => {
   const [errors, setErrors] = useState<string[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
-  const handleSubmit = (event: any) => {
+
+  const handleSubmit = async (event: any) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    handleCreateUser(formData);
+    await handleCreateUser(formData);
   };
 
   return (
@@ -18,13 +19,13 @@ export const NewAccountForm = () => {
       <form className={styles.NewAccountForm__form} onSubmit={handleSubmit}>
         <input
           type="text"
-          name="first_name"
+          name="firstName"
           placeholder="Nombre"
           disabled={loading}
         />
         <input
           type="text"
-          name="last_name"
+          name="lastName"
           placeholder="Apellidos"
           disabled={loading}
         />
