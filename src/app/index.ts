@@ -4,6 +4,7 @@ export * from './components/Store/ProductWrapper/ProductsWrapper';
 export * from './components/home/Description/Description';
 export * from './components/home/Hero/Hero';
 export * from './components/home/MainProducts/MainProducts';
+export * from './components/login/LoginForm/LoginForm';
 export * from './components/product/ProductView/ProductView';
 export * from './components/product/ProductView/ProductViewItemsOrder';
 export * from './components/shared/Footer/Footer';
