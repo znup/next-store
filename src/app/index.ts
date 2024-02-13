@@ -1,6 +1,7 @@
 export * from './api/route';
 export * from './components/Store/ProductCard/ProductCard';
 export * from './components/Store/ProductWrapper/ProductsWrapper';
+export * from './components/chat/chat';
 export * from './components/home/Description/Description';
 export * from './components/home/Hero/Hero';
 export * from './components/home/MainProducts/MainProducts';
@@ -11,6 +12,5 @@ export * from './components/shared/Footer/Footer';
 export * from './components/shared/Header/Header';
 export * from './components/shared/Loader/Loader';
 export * from './components/shared/SanitizeHTML/SanitizeHTML';
-export * from './components/shared/ShoppingCart/ShoppingCart';
 export * from './components/shared/ShoppingCart/ShoppingCartItem';
 export * from './components/signup/NewAccountForm/NewAccountForm';
