@@ -1,9 +1,15 @@
 .ShoppingCart
-  background-color: transparent
-  border: none
-  cursor: pointer
-  color: $color-text
   position: relative
+  color: $color-text
+  &__cart
+    background-color: transparent
+    border: none
+    cursor: pointer
+    padding: 0.5rem
+    & > svg
+      width: 1.25rem
+      height: 1.25rem
+      fill: $color-text
   &__counter
     position: absolute
     border-radius: 50%
@@ -16,10 +22,6 @@
     width: 0.5rem
     height: 0.5rem
     font-size: 0.5rem
-  & > svg
-    width: 1.25rem
-    height: 1.25rem
-    fill: $color-text
   &__items
     position: absolute
     background: $color-primary
@@ -39,3 +41,8 @@
     border: none
     font-weight: bold
     cursor: pointer
+    &:disabled
+      cursor: not-allowed
+      background: $color-primary
+      color: $color-text
+      border: 1px solid $color-border
