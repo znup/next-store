@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analize": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@google/generative-ai": "^0.2.1",
+    "@next/bundle-analyzer": "^14.1.0",
     "ai": "^2.2.35",
     "classnames": "^2.5.1",
     "graphql-request": "^6.1.0",
@@ -25,6 +27,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/sanitize-html": "^2.11.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "sass": "^1.70.0",
