@@ -1,6 +1,7 @@
 import { Roboto } from 'next/font/google';
+import { Header } from 'app/components/shared/Header';
+import { Footer } from 'app/components/shared/Footer';
 
-import { Footer, Header } from './index';
 import '../sass/globals.sass';
 
 const roboto = Roboto({

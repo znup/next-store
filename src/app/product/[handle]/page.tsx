@@ -1,6 +1,6 @@
 import { redirect } from 'next/navigation';
-import { ProductView } from 'app/app';
 import { getProducts } from 'app/services/shopify/products';
+import { ProductView } from 'app/components/product/ProductView';
 
 interface ProductPageProps {
   searchParams: {

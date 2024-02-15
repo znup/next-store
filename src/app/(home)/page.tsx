@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { MainProducts } from '..';
+import { MainProducts } from 'app/components/home/MainProducts';
 
 export const metadata: Metadata = {
   title: '⚡Future Store',
